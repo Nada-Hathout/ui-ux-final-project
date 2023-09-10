@@ -1,0 +1,142 @@
+.section-1{
+    /* background-image: url('../../public/images/section5-bg.jpg'); */
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+
+}
+
+.about_header{
+    text-align: center;
+    animation: 1.3s anim-lineUp ease-out infinite;
+    color: rgb(245, 240, 240);
+    padding-top: 50px;
+    z-index: 2;
+    font-size: 40px;
+}
+
+
+/* animation of center div */
+  @keyframes anim-lineUp {
+  
+  
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+     }
+   
+    50% {
+      opacity: 1;
+      transform: translateY(-18%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    } 
+  }
+
+
+  .img{
+    width: 100%;
+     height: 1000px;
+     position: absolute;
+     
+  
+ 
+     
+  }
+  
+
+  
+  .form_booking{
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: relative;
+    border-radius: 40px;
+    margin-left: 350px;
+    
+  
+  
+  }
+
+  .inputs_style{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(253, 253, 253, 0.192);
+    border: none;
+    margin-top: 30px;
+  
+  }
+
+  .flexing{
+    display: flex;
+    
+    
+  }
+  .flexing input{
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+
+  .span_text1{
+    color: orangered;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 43px;
+    
+  }
+
+
+  .span_text2{
+    color: orangered;
+    position: relative;
+    /* margin-right: 0px; */
+    margin-left: 230px;
+    
+  }
+
+  
+  .inputs_style2{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(253, 253, 253, 0.192);
+    border: none;
+    margin-top: 30px;
+    margin-left: 35px;
+  
+  }
+  .flexing2{
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+
+  }
+  .flexing2 input{
+    width: 45%;
+  }
+  
+  .inputs_style3{
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(253, 253, 253, 0.192);
+    border: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+  
+  }
+
+  .submit_btn{
+    width: 93%;
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-left: 23px;
+    margin-top: 30px;
+  }

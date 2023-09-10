@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rooms and details</title>
+
+       <!-- bootstrap links -->
+       <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
+       <script src="../resources/bootstrap/js/jquery-3.6.0.min.js"></script>
+       <script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+   
+       <!-- font-awesome link -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+       <!-- css links -->
+       <link rel="stylesheet" href="../resources/style/rooms_details.css">
+       <!-- <link rel="stylesheet" href="../resources/style/news.css"> -->
+       <link rel="stylesheet" href="../resources/style/home.css">
+       <link rel="stylesheet" href="../resources/style/about.css">
+       
+       <link rel="stylesheet" href="../resources/style/navbar_&_footer.css">
+
+</head>
+<body>
+    
+     <!--////////////////          drop down navbar           //////////////-->
+
+
+     <div class="topnav" id="myTopnav">
+        <img class="logo" src="../public/icons/logo-v4-black.png">
+        <a href="contact.html">CONTACT</a>    
+        <a href="news.html">NEWS</a>
+        <a href="rooms.html">ROOMS & SUITES</a>
+        <a href="about.html">ABOUT</a>
+        <a href="home.html">HOME</a>
+        <a  href="javascript:void(0);" class="icon" onclick="myFunction1()">
+          <i class="fa fa-bars" style="font-size: 35px;"></i>
+        </a>
+      
+      </div>
+<!-- //////////////////////           end drop down navbar      //////////-->
+
+
+<!--//////////////////         start top navbar /////////////////////////////////-->
+
+      <div class="section-1">
+           <div class="second_nav" id="secondNavbar" >
+            <img class="logo2" src="../public/icons/logo-v4-black.png" >
+            <a  href="javascript:void(0);" class="icon2" onclick="myFunction2()">
+                <i class="fa fa-bars" style="font-size: 35px;"></i>
+              </a>
+              <a href="home.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="rooms.html">ROOMS & SUITES</a>
+              <a href="news.html">NEWS</a>
+              <a href="contact.html">CONTACT</a>  
+              <button class="btn-book"   onclick="window.location.href='booking.html';">BOOK NOW</button>
+              
+          </div>
+
+          <h1 class="about_header"> Room Details</h1>
+
+      </div>
+
+<!--//////////////////////////////         end top navbar  //////////////////////////////-->
+
+
+<!-- /////////////////////// start section 1  /////////////////// -->
+
+<div class="container_13">
+
+<div class="slider">
+        
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="../public/images/room-1.jpg" style="width:700px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="../public/images/room-2.jpg" style="width:700px">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="../public/images/room-6.jpg" style="width:700px">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="../public/images/room-4.jpg" style="width:700px">
+    </div>
+  
+  
+      
+ 
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+ 
+  <div style="width: 700px; height: 120px; background-color: black; position: relative; z-index: 12; margin-top: 300px;">
+    <div class="row">
+      <div class="column">
+        
+        <img class="demo cursor" src="../public/images/room-1.jpg" style="width:150px;margin-left: 10px;margin-top: -130px;" onclick="currentSlide(1)" >
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="../public/images/room-2.jpg" style="width:150px;  margin-left: 10px;margin-top: -130px;" onclick="currentSlide(2)" >
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../public/images/room-6.jpg" style="width:150px ;margin-left: 10px;margin-top: -130px;" onclick="currentSlide(3)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../public/images/room-4.jpg" style="width:150px;margin-left: 10px; margin-top: -130px;" onclick="currentSlide(4)" >
+      </div>
+        
+      
+    </div>
+   </div>
+  </div>
+
+  
+    </div>
+
+    
+<div class="info4">
+  <h1>Description of Room</h1>
+  <p>Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis purus in justo<br> pulvinar tempor. Aliquam tellus nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec <br>lacus interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet pellentesque vitae et<br> nunc. Sed vitae leo vitae nisl pellentesque semper.</p>
+  </div>
+
+
+
+<div>
+    <div class="form_check">
+        <h4>Check In</h4>
+        <input type="text" class="inputs" placeholder="Arrive Date">
+        <h4>Check out</h4>
+        <input type="text" class="inputs"placeholder="Depature Date">
+        <h4>Guests</h4>
+        <select name="cars"class="inputs" id="cars" style="width: 290px;height: 60px; border: solid 0.1px gray; margin-top: 10px;background-color: white;">
+            <option value="volvo">1</option>
+            <option value="saab">3</option>
+            <option value="mercedes">4</option>
+            <option value="audi">5</option>
+          </select>
+          <button onclick="window.location.href='thanks.html';" class="book_now"  id="xx">Discover NOW </button>
+
+          
+   
+   
+    </div>
+    <div class="posts">
+      <h3>Compare Room</h3>
+      <div class="row1">
+        <img src="../public/images/room-3.jpg" class="left_img">
+        <div class=" text_row"> 
+          <h5> Economy Room<br>$175/Night</h5>
+        </div>
+      </div>
+
+  
+      
+
+      <div class="row1">
+        <img src="../public/images/room-4.jpg" class="left_img">
+        <div class=" text_row"> 
+          <h5>Deluxe Room<br> $175/Night</h5>
+        </div>
+      </div>
+      
+      <div class="row1">
+        <img src="../public/images/room-5.jpg" class="left_img">
+        <div class=" text_row"> 
+          <h5>Super Deluxe Room<br>$320</h5>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>      
+
+
+    
+   
+
+
+</div>
+
+
+<div class="mnm">
+  <div><h5>Room Size<br>600Sq</h5></div>
+  <div><h5>Rooms Bed<br>2 Single Bed</h5></div>
+  <div><h5>Occupancy<br>Three Persons</h5></div>
+  <div><h5>view<br>Sea View</h5></div>
+</div>
+
+<div class="xyz">
+  <p >Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia nulla. Aliquam quis purus in justo<br> pulvinar tempor. Aliquam tellus nulla, sollicitudin at euismod nec, feugiat at nisi. Quisque vitae odio nec <br>lacus interdum tempus. Phasellus a rhoncus erat. Vivamus vel eros vitae est aliquet pellentesque vitae et<br> nunc. Sed vitae leo vitae nisl pellentesque semper.</p>
+  <h3>Room Facilities </h3>
+
+ <div class="vvv">
+  <div>
+    <div class="circle_icon"></div>
+    <h4>Air Conditionar</h4>
+  </div>
+
+  <div>
+    <div class="circle_icon2"></div>
+    <h4>
+      Swiming Pool</h4>
+  </div>
+
+  <div>
+    <div class="circle_icon3"></div>
+    <h4>Gymnasium
+    </h4>
+  </div>
+ </div>
+
+
+ <!-- row2 -->
+ <div class="vvv">
+  <div>
+    <div class="circle_icon4"></div>
+    <h4> Easy Parking</h4>
+  </div>
+
+  <div>
+    <div class="circle_icon"></div>
+    <h4> More Security</h4>
+  </div>
+
+  <div>
+    <div class="circle_icon2"></div>
+    <h4>Gymnasium
+    </h4>
+  </div>
+ </div>
+ 
+ 
+
+</div>
+</div>
+
+
+
+
+<!-- /////////////////////// end section 1  /////////////////// -->
+
+<!-- ///////////////////////////////// -->
+
+<div class="form">
+  <div class="inputs_div">
+    <h4>Send Us Your Question</h4>
+    <div >
+      <input  class="inputs_style" class="name" type="text" id="name" placeholder="Enter Name"> 
+      <input  class="inputs_style" class="email" type="text" id="email" placeholder="Enter Email"> 
+      <input  class="inputs_style" class="email" type="text" id="subject" placeholder="Enter Subject"> 
+  
+    </div>
+    <div>
+     
+      <input  class="inputs_style" class="email" type="text" id="number" placeholder="Enter Phone"> 
+    </div>
+    <textarea name="form_message" class="form-control required" rows="10" placeholder="Enter Message" id="message"></textarea>
+    
+  </div>
+  <button onclick="window.location.href='thanks.html';" class="read_more"  id="xx">Discover NOW </button>
+   
+</div>
+    
+<!-- /////////////////  start footer   ////////////////////////////// -->
+
+<div class="footer" id="footerx">
+
+
+    <div class="col1">
+      <img class="footer_logo" src="../public/icons/logo-v4-black.png">
+      <p class="footer_welcome">Welcome to the best five-star deluxe hotel in New<br>
+        York. Hotel elementum sesue the aucan vestibulum<br>
+        aliquam justo in sapien rutrum volutpat.</p>
+  
+        <div class="footer_icons">
+          <div class="circle"><img class="icon_size" src="../public/icons/facebook.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/twitter.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/linkedin-big-logo.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/youtube.png"></div>
+        </div>
+  
+    </div>
+    <div class="col2">
+      <ul class="list">
+        <li><h2 style="color: white;">Services Links</h2></li>
+        <li><a>HOME</a></li>
+        <li><a>ROOM & SUITS</a></li>
+        <li><a>PRICONG</a> </li>
+        <li><a>NEWS</a></li>
+        <li><a>CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="col3">
+      <ul class="list">
+        <li><h2 style="color: white;">Information</h2></li>
+        <li><a> <img class="small_icons" src="../public/icons/call.png">1800-121-3637<br>+91-7052-101-786</a></li>
+        <li><a> <img class="small_icons" src="../public/icons/email.png"> info@example.com</a></li>
+        <li><a> <img class="small_icons" src="../public/icons/map.png">1247/Plot No. 39, <br> United States of America</a> </li>
+       
+      </ul>
+    </div>
+    <div class="col4">
+      <ul class="list">
+        <li><h1 style="color: white;">Newsletter</h1></li>
+        <li><p>Lorem ipsum dolor sit amet consectetur<br> Augue id fermentum</p></li>
+        <li><input type="email" placeholder="Email Address" class="email"><div class="outer"><img class="icon_size" src="../public/icons/telegram.png"></div></li>
+      </ul>>
+    </div>
+  
+  </div>
+  
+  <!-- /////////////////  end footer   ////////////////////////////// -->
+    
+<script src="../resources/javaScript/rooms/details.js"></script>
+
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+
+</body>
+</html>

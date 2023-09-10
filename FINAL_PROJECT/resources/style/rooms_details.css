@@ -1,0 +1,500 @@
+.section-1{
+    background-image: url('../../public/images/page-title-about.png');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+.about_header{
+    text-align: center;
+    animation: 3s anim-lineUp ease-out infinite;
+    color: aliceblue;
+    padding-top: 300px;
+    z-index: 2;
+    font-size: 100px;
+}
+
+/* animation of center div */
+  @keyframes anim-lineUp {
+  
+  
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+     }
+   
+    50% {
+      opacity: 1;
+      transform: translateY(-18%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    } }
+
+
+
+
+
+
+
+    /* ////////////// start section 1 */
+
+
+  /* ////////////////////////////////////  slider  */
+.slider{
+    
+    margin-left: 20px;
+}
+
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 100px;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    /* right: 0; */
+    margin-left: 650px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+    height: 200px;
+    margin-top: 110px;
+    z-index: 15;
+    /* padding-left: 100px; */
+    
+  }
+  
+
+  .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  
+   
+}
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .container_13{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* /////////// */
+ 
+
+  .info4 h1,p{
+    font-family: 'Times New Roman', Times, serif;
+ 
+  }
+
+  .info4{
+    position: absolute;
+    margin-left: -380px;
+    padding-top: 710px;
+   
+  }
+
+  .form_check{
+    width: 350px;
+    height: 550px;
+    background-color: rgba(207, 203, 203, 0.726);
+    margin-top: 90px;
+    margin-left: 200px;
+    border-radius: 19px;
+    padding-bottom: 100px;
+  }
+
+.inputs{
+    width: 290px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px solid rgb(180, 126, 82);
+    border: none;
+    border-radius: 15px;
+
+}
+.form_check h4{
+    color: #333030;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+/* button */
+
+.book_now{
+    background-color: transparent;
+    border: #aa8453 2px solid;
+    width: 290px;
+    height: 55px;
+    color: #aa8453;
+    text-align: center;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0px 0 0 0  #aa8453;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+  }
+  .book_now a{
+    padding:10px 10px ;
+  }
+  
+  .book_now:hover{
+    
+  
+    box-shadow: inset 290px 0 0 0  rgb(3, 3, 3);
+    color: #ffffff;;
+   
+  }
+
+  /* /////////////////////////////////////// */
+
+  .second_col input{
+    width: 400px;
+    height: 70px;
+    background-color: #aa8453;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 10px;
+  
+  }
+  ::placeholder{
+    color: #ffffff;
+    opacity: 1;
+    font-size: 25px;
+    padding-left:  20px;
+    
+  }
+  
+  
+  .search_icon{
+    position: relative;
+    margin-left: -50px;
+    z-index: 14;
+  }
+  
+  .row1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+  .posts h3{
+    font-family: 'Times New Roman', Times, serif;
+     margin-left: 40px;
+     margin-top: 100px;
+     padding-top: 20px;
+  }
+  
+  .first_col h1{
+    font-family: 'Times New Roman', Times, serif;
+   
+    color: #000;
+   
+  }
+  .text_row h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px ;
+  }
+  
+  .left_img{
+    width: 80px;
+    height:100px;
+    border-radius: 20px;
+  }
+  
+  .posts{
+    background-color: #bbb9b1c4;
+    width: 65%;
+    height: 480px;
+    padding: 0px 10px;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-bottom: -200px;
+  }
+  
+  .second_col{
+    margin-right: 80px;
+
+}
+  
+.row1:hover{
+    background-color: #aa8453;
+}
+  
+    /* button */
+    
+  
+    .reply{
+      background-color: transparent;
+      border: #aa8453 2px solid;
+      width: 100px;
+      height: 33px;
+      color: #aa8453;
+      text-align: center;
+      transition: ease-out 0.5s;
+      box-shadow: inset 0px 0 0 0  #aa8453;
+      margin-left: 450px;
+      
+    }
+    .reply a{
+      padding:10px 10px ;
+    }
+    
+    .reply:hover{
+      
+    
+      box-shadow: inset 250px 0 0 0  rgb(3, 3, 3);
+      color: #ffffff;;
+     
+    }
+  
+    .Comment1{
+      display: flex;
+      margin-left: 100px;
+      margin-bottom: 50px;
+    }
+  
+    .infoo{
+      display: flex;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+  
+  .mnm{
+    background-color: transparent;
+    width: 640px;
+    height: 150px;
+    margin-left: 120px;
+    margin-top: -80px;
+    border-radius: 17px;
+    border: #aa8453 solid 2px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .mnm h5{
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333030;
+  }
+
+  .xyz p,h3{
+    margin-left: 130px; padding-top:50px ;
+  }
+
+  .circle_icon{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background-image: url('../../public/icons/air-conditioner.png');
+    background-repeat: no-repeat;
+    border: #aa8453 2px solid;
+    background-size: cover;
+    border-radius: 45px;
+  }
+
+  .circle_icon:hover{
+    background-color: #a78f70;
+  }
+  
+  .circle_icon2{
+    width: 70px;
+    height: 70px;
+    background-image: url('../../public/images/pool.png');
+    background-repeat: no-repeat;
+    border: #aa8453 2px solid;
+    background-size: cover;
+    border-radius: 45px;
+    margin-left: 10px;
+
+  }
+  .circle_icon2:hover{
+    background-color: #a78f70;
+  }
+  
+  .circle_icon3{
+    width: 70px;
+    height: 70px;
+    background-image: url('../../public/icons/calendar.png');
+    background-repeat: no-repeat;
+    border: #aa8453 2px solid;
+    background-size: cover;
+    border-radius: 45px;
+    margin-left: 10px;
+
+  }
+  .circle_icon3:hover{
+    background-color: #a78f70;
+  }
+  
+  .circle_icon4{
+    width: 70px;
+    height: 70px;
+    background-image: url('../../public/icons/parking.png');
+    background-repeat: no-repeat;
+    border: #aa8453 2px solid;
+    background-size: cover;
+    border-radius: 45px;
+    margin-left: 10px;
+
+  }
+  .circle_icon4:hover{
+    background-color: #a78f70;
+  }
+  
+
+  .vvv{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 55px;
+  }
+
+  .vvv div{
+    display: flex;
+  }
+  .vvv div h4{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #444242;
+  }
+
+  /* /////////////////// */
+
+
+  .inputs_style{
+    width: 210px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(143, 125, 111);
+    background-color: #f7f0f0;
+    
+  }
+  textarea{
+    margin-top: 10px;
+    border: 0.4px solid rgb(226, 219, 214);
+    width: 100px;
+
+    
+  }
+  .inputs_div{
+    margin-top: 120px;
+    width: 55%;
+    margin-left: 110px;
+   
+  }
+
+  ::placeholder{
+    color: #464444;
+    opacity: 1;
+    font-size: 19px;
+    padding-left:  20px;
+    
+  }
+
+  
+  .read_more{
+    background-color: transparent;
+    border: #a78f70 1px solid;
+    width: 190px;
+    height: 65px;
+    color: #aa8453;
+    text-align: center;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0px 0 0 0  #aa8453;
+    margin-left: 110px;
+    
+    margin-top: 20px;
+  }
+  .read_more a{
+    padding:10px 10px ;
+  }
+  
+  .read_more:hover{
+    
+  
+    box-shadow: inset 250px 0 0 0  rgb(3, 3, 3);
+    color: #ffffff;;
+   
+  }

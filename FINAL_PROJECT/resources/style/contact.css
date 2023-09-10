@@ -1,0 +1,120 @@
+.section-1{
+    background-image: url('../../public/images/page-title-about.png');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+}
+
+.about_header{
+    text-align: center;
+    animation: 3s anim-lineUp ease-out infinite;
+    color: aliceblue;
+    padding-top: 300px;
+    z-index: 2;
+    font-size: 100px;
+}
+
+/* animation of center div */
+  @keyframes anim-lineUp {
+  
+  
+    0% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+     }
+   
+    50% {
+      opacity: 1;
+      transform: translateY(-18%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    } 
+  }
+
+/* start section 1 */
+.container_12{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.left h1,h6{
+  
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+
+ .right h1,h6{
+  
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+ .infoo2{
+  display: flex;
+  margin-top: 60px;
+ }
+ .infoo2 div{
+   margin-left: 30px;
+ }
+
+ .inputs_style{
+  width: 290px;
+  height: 55px;
+  margin-top: 10px;
+  border: 1px solid rgb(180, 126, 82);
+  
+}
+textarea{
+  margin-top: 10px;
+  border: 1px solid rgb(180, 126, 82);
+  
+}
+.inputs_div{
+  margin-top: 20px;
+}
+
+/* button */
+
+.read_more{
+  background-color: transparent;
+  border: #aa8453 2px solid;
+  width: 130px;
+  height: 55px;
+  color: #aa8453;
+  text-align: center;
+  transition: ease-out 0.5s;
+  box-shadow: inset 0px 0 0 0  #aa8453;
+  margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 7px;
+  
+}
+.read_more a{
+  padding:10px 10px ;
+}
+
+.read_more:hover{
+  
+
+  box-shadow: inset 250px 0 0 0  rgb(3, 3, 3);
+  color: #ffffff;;
+ 
+}
+
+/* /////////  end section 1 */
+
+
+/* /////////  start section 2 */
+.the_map{
+  background-image: url('../../public/images/location_map.PNG');
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-top: 190px;
+  margin-bottom: -280px;
+}
+/* /////////  end section 2 */
+

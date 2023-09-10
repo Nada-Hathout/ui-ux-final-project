@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+
+          <!-- bootstrap links -->
+          <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.min.css">
+          <script src="../resources/bootstrap/js/jquery-3.6.0.min.js"></script>
+          <script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+      
+          <!-- font-awesome link -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+          <!-- css links -->
+        
+          <link rel="stylesheet" href="../resources/style/home.css">
+          <!-- <link rel="stylesheet" href="../resources/style/about.css"> -->
+          <link rel="stylesheet" href="../resources/style/navbar_&_footer.css">
+          <link rel="stylesheet" href="../resources/style/booking.css">
+
+</head>
+<body>
+   
+    
+    
+
+     <!--////////////////          drop down navbar           //////////////-->
+
+
+     <div class="topnav" id="myTopnav">
+        <img class="logo" src="../public/icons/logo-v4-black.png">
+        <a href="contact.html">CONTACT</a>    
+        <a href="news.html">NEWS</a>
+        <a href="rooms.html">ROOMS & SUITES</a>
+        <a href="about.html">ABOUT</a>
+        <a href="home.html">HOME</a>
+        <a  href="javascript:void(0);" class="icon" onclick="myFunction1()">
+          <i class="fa fa-bars" style="font-size: 35px;"></i>
+        </a>
+      
+      </div>
+<!-- //////////////////////           end section1     //////////-->
+
+    <div > <img src="../public/images/timothy-eberly-ZU4-1ob2-1s-unsplash.jpg" class="img">
+    
+    <div class="form_booking">
+
+        <h1 class="about_header" >     Make Your Reservation </h1>
+
+        <!--row1  -->
+        <div style="padding-bottom: 20px ;"><input type="text" name="country" id="address" placeholder="Country,Zip,City" class="inputs_style" style=" width: 93%;margin-left: 20px;"></div>
+        
+         <div>
+            <span class="span_text1">Check in</span>
+            <span class="span_text2">Check out</span>
+         </div>
+        <!-- row2 -->
+        <div class="flexing">
+            <input  type="date"  class="inputs_style">
+           
+            <input  type="date"   class="inputs_style">
+        </div>
+     <!-- /////////row3 -->
+        <div class="flexing">
+            <select name="cars" id="cars" class="inputs_style2">
+                <option value="" selected="" hidden="">no of rooms</option>
+                <option value="volvo">1</option>
+                <option value="saab">2</option>
+                <option value="mercedes">3</option>
+                <option value="audi">4</option>
+              </select>
+              <!--  -->
+              <select name="cars" id="cars" class="inputs_style2">
+                <option value="" selected="" hidden="">no of adults</option>
+                <option value="volvo">1</option>
+                <option value="saab">2</option>
+                <option value="mercedes">3</option>
+                <option value="audi">4</option>
+              </select>
+              <!--  -->
+              <select name="cars" id="cars" class="inputs_style2">
+                <option value="" selected="" hidden="">no of children</option>
+                <option value="volvo">1</option>
+                <option value="saab">2</option>
+                <option value="mercedes">3</option>
+                <option value="audi">4</option>
+              </select>
+ 
+            </div>
+
+                 <!-- row4 -->
+        <div class="flexing2">
+            <input  type="email" placeholder="Enter Your Email"  class="inputs_style3" >
+           
+            <input  type="text" placeholder="Enter phone number"   class="inputs_style3">
+        </div>
+          <!-- button -->
+          <button class="submit_btn">Book Now</button>
+
+        </div>
+
+      
+      </div>
+</div>
+    
+    
+<!--//////////////////////////////         end section1  //////////////////////////////-->
+
+
+
+
+
+
+
+
+     
+<!-- /////////////////  start footer   ////////////////////////////// -->
+
+<div class="footer" id="footerx">
+
+
+    <div class="col1">
+      <img class="footer_logo" src="../public/icons/logo-v4-black.png">
+      <p class="footer_welcome">Welcome to the best five-star deluxe hotel in New<br>
+        York. Hotel elementum sesue the aucan vestibulum<br>
+        aliquam justo in sapien rutrum volutpat.</p>
+  
+        <div class="footer_icons">
+          <div class="circle"><img class="icon_size" src="../public/icons/facebook.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/twitter.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/linkedin-big-logo.png"></div>
+          <div class="circle"><img class="icon_size" src="../public/icons/youtube.png"></div>
+        </div>
+  
+    </div>
+    <div class="col2">
+      <ul class="list">
+        <li><h2 style="color: white;">Services Links</h2></li>
+        <li><a>HOME</a></li>
+        <li><a>ROOM & SUITS</a></li>
+        <li><a>PRICONG</a> </li>
+        <li><a>NEWS</a></li>
+        <li><a>CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="col3">
+      <ul class="list">
+        <li><h2 style="color: white;">Information</h2></li>
+        <li><a> <img class="small_icons" src="../public/icons/call.png">1800-121-3637<br>+91-7052-101-786</a></li>
+        <li><a> <img class="small_icons" src="../public/icons/email.png"> info@example.com</a></li>
+        <li><a> <img class="small_icons" src="../public/icons/map.png">1247/Plot No. 39, <br> United States of America</a> </li>
+       
+      </ul>
+    </div>
+    <div class="col4">
+      <ul class="list">
+        <li><h1 style="color: white;">Newsletter</h1></li>
+        <li><p>Lorem ipsum dolor sit amet consectetur<br> Augue id fermentum</p></li>
+        <li><input type="email" placeholder="Email Address" class="email"><div class="outer"><img class="icon_size" src="../public/icons/telegram.png"></div></li>
+      </ul>>
+    </div>
+  
+  </div>
+  
+  <!-- /////////////////  end footer   ////////////////////////////// -->
+    
+<script src="../resources/javaScript/rooms/booking.js"></script>
+</body>
+</html>
